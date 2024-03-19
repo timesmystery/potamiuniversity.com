@@ -1,0 +1,158 @@
+:root {
+    --main-color: #022988;
+    --primary-color: #ef5068;
+    --black: #13131a;
+    --box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+        "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: linear-gradient(180deg,
+            rgba(255, 255, 255, 0.15),
+            rgba(255, 255, 255, 0));
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background:#fff;
+}
+.container{
+    display: flex;
+}
+h3{
+    font-size: 26px;
+}
+nav{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    height: 1000vh;
+    left: 0;
+    background: var(--black);
+    width: 280px;
+    overflow: hidden;
+    box-shadow: var(--box-shadow);
+}
+.logo{
+    text-align: center;
+    display: flex;
+    margin: 10px 0 0 10px;
+}
+.logo img{
+    width: 100px;
+    height: 100px;
+}
+.logo span{
+    font-weight: bold;
+    padding-left: 15px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+a{
+    position: relative;
+    color: #ffffff;
+    font-size: 14px;
+    display: table;
+    width: 280;
+    padding: 10px;
+}
+nav .bi{
+    position: relative;
+    width: 70px;
+    height: 40px;
+    top: 14px;
+    font-size: 20px;
+    text-align: center;
+}
+.nav-item{
+    position: relative;
+    top: 12px;
+    margin-left: 10px;
+}
+a:hover{
+    background: #eeee;
+    display: block ;
+}
+.logout{
+    position: absolute;
+}
+.main{
+    position: relative;
+    padding: 20px;
+    width: 100%;
+}
+.main-top{
+    position: absolute;
+    margin: 10px 30px;
+    color: var(--black);
+    cursor: pointer;
+}
+.main-skill{
+    display: flex;
+    margin-top: 50px;
+}
+.main-skill .card{
+    width: 200px;
+    margin: 10px;
+    background: var(--bs-white);
+    text-align: center;
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: var(--box-shadow);
+}
+.main-skill .card h1{
+    font-size: 26px;
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+.main-skill .card p{
+    font-size: 16px;
+}
+.main-skill .card button{
+    width: 100%;
+    background: var(--bs-orange);
+    color: var(--bs-white);
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-top: 15px;
+    cursor: pointer;
+}
+.main-skill .card button:hover{
+    background: var(--bs-danger);
+}
+.main-skill .card i{
+    font-size: 22px;
+    padding: 10px;
+}
+li{
+    color: var(--bs-white)!important;
+}

@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: black;
+}
+
+.wrapper .text-box img{
+    float: left;
+    margin-right: 15px;
+}
+.text-box{
+    color: #fff;
+}
+
+wrapper{
+    margin: 150px auto;
+    width: 70%;
+
+}
+
+@media(max-width:1399px)
+{
+    .carousel-caption.d-block h2{
+        font-size: 38px;
+    }
+    .carousel-caption.d-block p{
+        font-size: 25px;
+    }
+    .navbar-light .navbar-toggler{
+        border-color: #fff!important;
+        margin-right: -15%!important;
+    }
+    .enable{
+        font-size: 20px!important;
+    }
+}
+
+@media(max-width:983px)
+{
+    .carousel-caption.d-block h2{
+        font-size: 38px;
+    }
+    .carousel-caption.d-block p{
+        font-size: 25px;
+    }
+    .navbar-light .navbar-toggler{
+        border-color: #fff!important;
+        margin-right: -15%!important;
+    }
+}
+@media(max-width:800px)
+{
+    .carousel-caption.d-block h2{
+        font-size: 38px;
+    }
+    .carousel-caption.d-block p{
+        font-size: 25px;
+    }
+    .navbar-light .navbar-toggler{
+        border-color: #fff!important;
+        margin-right: 10%!important;
+    }
+    .enable{
+        display: none;
+    }
+    .disable{
+        display: contents;
+    }
+    
+}
+@media(max-width:780px)
+{
+    .carousel-caption.d-block h2{
+        font-size: 38px;
+    }
+    .carousel-caption.d-block p{
+        font-size: 25px;
+    }
+    
+}
+
+@media(max-width:577px)
+{
+    .carousel-caption.d-block h2{
+        font-size: 25px;
+    }
+    .carousel-caption.d-block p.latest .latest-container h5{
+    color: var(--primary-color);
+    font-size: 28px;
+    /* box-shadow: var(--box-shadow); */
+    text-align: center;
+    text-wrap: wrap!important;
+}}
+@media(max-width:412px)
+{
+    .carousel-caption.d-block h2{
+        font-size: 22px;
+    }
+    .carousel-caption.d-block p.latest .latest-container h5{
+    color: var(--primary-color);
+    font-size: 18px!important;
+    /* box-shadow: var(--box-shadow); */
+    text-align: center;
+    text-wrap: wrap!important;
+}}
